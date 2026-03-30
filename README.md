@@ -205,18 +205,6 @@ The following checks were completed successfully:
 - Test PostgreSQL Connectivity
 - PGPASSWORD='your-password' psql "host=YOUR_RDS_ENDPOINT port=5432 dbname=student_portal user=postgres sslmode=require" -c 'SELECT 1;'
 
-Repository Structure
-.
-├── app/
-├── prisma/
-├── public/
-├── infra/
-│   ├── user-data.sh
-│   └── create-rds-cpu-alarm.sh
-├── package.json
-├── next.config.js
-└── README.md
-
 Future Improvements
 ### use Secrets Manager for database credentials
 ### add CI/CD with GitHub Actions
